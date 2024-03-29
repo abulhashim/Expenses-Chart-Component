@@ -88,7 +88,7 @@ function BarChart() {
 
   return (
     <div>
-      <canvas ref={chartContainer} aria-label="expenses bar chart" />
+      <canvas ref={chartContainer} />
     </div>
   );
 }
